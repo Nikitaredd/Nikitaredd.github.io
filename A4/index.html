@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text1" id="txtno1"/>
+    <input type="text2" id="txtno2"/>
+    <button onclick="cal()"style="color: blue;">click</button>
+<script>
+const add = (txtno1,txtno2) =>{
+    console.log(txtno1+txtno2)
+};
+const sub = (txtno1,txtno2) =>{
+    console.log(txtno1-txtno2)
+};
+const mul = (txtno1,txtno2) =>{
+    console.log(txtno1*txtno2)
+};
+const div = (txtno1,txtno2) =>{
+    console.log(txtno1/txtno2)
+};
+const calc = (result) =>{
+    alert(result());
+};
+calc(add)
+calc(sub)
+calc(mul)
+calc(div)
+</script>
+</body>
+</html>

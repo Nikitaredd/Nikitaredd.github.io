@@ -8,10 +8,12 @@
 <body>
     <input type="text1" id="txtno1"/>
     <input type="text2" id="txtno2"/>
-    <button onclick="greet()"style="color: blue;">click</button>
+    <button onclick="cal()"style="color: blue;">click</button>
     <script>
-        function greet(){
-            alert(txtno1.value+txtno2.value);
+        function  cal(){
+            let a = number(txtno1.value);
+            let b = number(txtno2.value);
+            alert(a+b);
         }
     </script>
 
