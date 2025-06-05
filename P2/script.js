@@ -24,7 +24,7 @@ const showRegister = () => {
 }
 const showhome =() => {
     let str=`
-    <h1>welocome</h1>
+    <h1>welcome</h1>
     `
     root.innerHTML = str
 }
