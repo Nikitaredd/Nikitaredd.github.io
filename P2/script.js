@@ -22,7 +22,7 @@ const showRegister = () => {
     `
     root.innerHTML = str
 }
-const showhome(){
+const showhome =() => {
     let str=`
     <h1>welocome</h1>
     `
