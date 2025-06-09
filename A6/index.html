@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+     const fruits = [];
+     function addfruit(){
+     let fruits1 = document.getElementById("fruitsitem").value;
+     fruits.push(fruits1)
+     document.getElementById("divresult").innerHTML = fruits.join();
+     console.log(fruits);
+     }
+    </script>
+</head>
+<body>
+    <h1>fruits list</h1>
+    <input type = text id="fruitsitem">
+    <button onclick="addfruit()">add</button>
+    <div id="divresult"></div>
+</body>
+</html>
